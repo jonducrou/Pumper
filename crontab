@@ -1,3 +1,4 @@
 # m h  dom mon dow   command
-* * * * * /home/pi/Pumper/uptime-metric.sh
+* * * * * /home/pi/Pumper/uptime-metric.sh >> /home/pi/uptime-metric.log 2>> /home/pi/uptime-metric.err
+
 
