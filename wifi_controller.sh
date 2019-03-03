@@ -1,7 +1,7 @@
-if [ ! -z "$(ifconfig | grep wwan0)" ] ; 
+if [ ! -z "$(/sbin/ifconfig | grep wwan0)" ] ; 
 then 
-  sudo ifconfig wlan0 down
+  sudo /sbin/ifconfig wlan0 down
 else
-  sudo ifconfig wlan0 up
+  sudo /sbin/ifconfig wlan0 up
 fi
 
